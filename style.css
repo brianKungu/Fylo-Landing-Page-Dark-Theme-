@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "Raleway";
+  src: url("https://fonts.google.com/specimen/Raleway");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("https://fonts.google.com/specimen/Raleway");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("https://fonts.google.com/specimen/Open+Sans");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Open sans";
+  src: url("https://fonts.google.com/specimen/Open+Sans");
+  font-weight: 700;
+}
+
+@layer utilities {
+  .raleway {
+    font-family: Raleway, sans-serif;
+  }
+  .openSans {
+    font-family: Open Sans, sans-serif;
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.headingFont {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+
+.normalFont {
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 767px) {
+  .logo {
+    width: 100px;
+  }
+}
+
+
+.emailSection {
+  transform: translateY(250px);
+}
